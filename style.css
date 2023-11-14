@@ -1,0 +1,106 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather+Sans:wght@800&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: #a9cce3;
+}
+
+.contenedor-padre{
+    width: 450px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 1px solid #fff;
+    border-radius: 10px;
+    background: #69bded;
+}
+
+p {
+    font-size: 15px;
+    color: #ddd;
+}
+
+.elementos {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    color: #fff;
+}
+
+.cabecera {
+    font-size: 30px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.cabecera h2 {
+    margin-bottom: 15px;
+}
+
+.icono-nube {
+    margin-top: 10px;
+}
+
+h3 {
+    font-size: 20px;
+    margin-bottom: -10px;
+    font-family: monospace;
+}
+
+.temperaturas {
+    font-size: 40px;
+    font-family: monospace;
+}
+
+.temperaturas h5 {
+    font-size: 18px;
+    color: #727272;
+}
+
+.t1 {
+    margin-top: -5px;
+}
+
+.buscar-temperatura {
+    margin-top: 10px;
+}
+
+.opciones {
+    width: 400px;
+    height: 43px;
+    margin: 8px;
+    border: none;
+    border-radius: 3px;
+    font-size: 15px;
+    font-family: 'Merriweather Sans', sans-serif;
+    background: rgba(255, 255, 255, 0.668);
+    transition: all .2s ease-in-out;
+}
+
+.opciones:hover {
+    background: #a9cce3;
+}
+
+.btn-enviar {
+    width: 210px;
+    height: 43px;
+    border-radius: 2px;
+    background: #00ff73;
+    border: 1px solid #ddd;
+}
+
+.btn-enviar:hover {
+    background: #43fa95;
+}
+
+.alerta {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    color: rgb(255, 255, 255);
+    font-family: Verdana, Tahoma;
+    font-size: 20px;
+    font-weight: 700;
+}
